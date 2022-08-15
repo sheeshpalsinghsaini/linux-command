@@ -1,0 +1,26 @@
+# grep command : global regular expresion field 
+
+        used to search some kind of data
+
+
+    
+    grep "text to search" file.text 
+
+    grep "options" tar.text         //case senitive 
+    grep -i "options" tar.text      //case insensitivity.
+
+    grep -n "options" tar.text      //show with line number.
+
+    grep -n "some options" tar.text     //show 'some option" text with line no.
+
+    ------------------------------------
+
+    grep -n "some option file1.texzt file2.text file3.text //search in all file.
+
+     
+
+    -----------------------------------------
+
+    grep -v "some options" file.text : show all lines doesnt contain "some options".
+
+    

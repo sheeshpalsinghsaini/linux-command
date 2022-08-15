@@ -1,0 +1,11 @@
+# watch command :
+
+    run script, or in regualr interval, repetedly.
+
+    watch free -m : re-run after 2sec by default 
+
+    //we can change default time of it.
+    
+    watch -n 1 free -m : change in 1sec interval.
+
+    watch -n 1,5 free -m : change in .5sec interval. 

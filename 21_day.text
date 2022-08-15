@@ -1,0 +1,17 @@
+# which & whatis :
+    which :
+        -> use to return the path name of comand.
+        -> where command executable.
+
+    ex :
+        which ls
+        which cat 
+
+    whatis :
+        -> show one-line manual page description.
+
+    ex :
+        whatis cat 
+        whatis whatis 
+
+        

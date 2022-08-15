@@ -1,0 +1,14 @@
+# useradd 
+
+    -> to create user, use useradd.
+
+    syntax :                             |->user group
+        useradd userName -m -s /bin/bash -g users -c "comments"
+                          |  |
+                          |  |-> default shell
+                          |-> default home dir[userName]
+
+        sudo passwd  : allow to change password of root user.
+        
+        sudo passwd userName : press enter.
+        

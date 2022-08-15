@@ -1,0 +1,42 @@
+ls command :
+    $ ls [option] [file/dir name]      
+    $ ls [option] [path of that folder]
+
+Note : opetion is optional, not recommended.
+
+    '~' -> represent the user home directory.
+    '..' -> represent previous dir 
+    '.' -> represent current dir 
+    
+
+
+    ex : 
+        ls /    -> list root dir
+        ls ~    -> list home dir 
+        ls ~/Document -> list Document folder 
+        
+
+    ls -l   => list dir in long formate or details formate 
+    ls -a   => list all with hidden file also 
+
+Note : hidden file start with '.' 
+    -> we can combine the option 
+
+    ls -la  => long list with hidden file 
+
+
+
+
+    ls -lS  => list dir, sort with according size.
+
+
+    ls *.html   => list those file start anything, extension should be html 
+    ls *.*      => all file with all extension 
+
+
+    ls -lS > out.text   => store list dir in out.text file 
+
+
+    ls -d */        => list down all directory. 
+
+    man ls  => document of ls 

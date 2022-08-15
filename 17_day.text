@@ -1,0 +1,54 @@
+# File Permision : Symbolic Permision
+
+    ls -l 
+
+    -rw-r--r-- 1 sheeshpalsinghsaini sheeshpalsinghsaini 526 Aug 10 12:24 10_day.text
+    -rw-r--r-- 1 sheeshpalsinghsaini sheeshpalsinghsaini 275 Aug 10 12:29 11_day.text
+
+
+
+
+                    |-> name of the owner of the file 
+                    |                   |-> name of the group of file 
+                    |                   |                 |-> size of the file 
+    -rw-r--r-- 1 sheeshpalsinghsaini sheeshpalsinghsaini 371 Aug 10 12:32 12_day.text
+               |                                             <--date-----> <--file_Name-->
+               |-> Symbolic link of file 
+
+
+
+
+ |->used for indicat file or dir['-'-> file, d-> dir ]
+ |  x r w               x r w                x r w
+ -  - - -               - - -                - - -
+    | | |
+    | | |->write
+    | |->read
+    |->execute
+
+    owner/user[u]       group[g]           everyone/other[o]
+    Permision           Permision            Permision
+
+
+
+
+
+    Example :
+
+        chmod o+x file.text
+
+           |-> add Permision
+    chmod o+x file.text : give Permision to other for execute.
+     |    | |->execute Permision
+     |    |-> other 
+     |-> utility
+
+
+        chmod u+wrx file.text   :  change Permision for user 
+        chmod g+x file.text     : change Permision for group
+
+        chmod ugo=-rwx          : change uesr,group, and other Permision as null
+
+        chmod u+rw,g=rw,o+r file.text : change Permision for all seperately
+
+

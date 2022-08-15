@@ -1,0 +1,17 @@
+# command to show used or free resource :
+
+        1. df : report used disk by file system.
+
+            df -h
+
+        2. du : estimate and display disk used by file system.
+            du -h
+            sudo du -sh     : show without calculation ,s -> summayr,h-> human readable.
+
+        3. free : display total free and used space of memeory and swap space.
+
+            free -m : show in megabyte.
+            free -g : show in gigabyte.
+            free -k : show in kilobyte.
+            free -tera : show in terabyte.
+            free -h : show in human readable. 

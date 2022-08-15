@@ -1,0 +1,14 @@
+#sudo command :
+    super user do : allow extra/administrator privillages to user.
+
+
+    used in case of permision denia, most of the time it solve 
+    -> ask password, provide at the time of open system.
+    syntax :
+        sudo cat /etc/file.text 
+
+    
+    sudo apt-get install mysql-server : install mysql-server 
+    sudo -s     : change normal user to root user.[super user mode]
+    sudo su     : chage as super user mode .
+    

@@ -1,0 +1,20 @@
+# group management :
+
+    groups : show current user group.
+
+    cat /etc/group : show all the groups in system.
+
+    sudo groupadd groupName 
+    sudo groupadd java : create java group.
+    sudo groupadd python 
+    sudo groupadd database 
+
+    sudo gorupdel groupName 
+    sudo groupdel database 
+
+
+    sudo gpasswd -a userName groupName : add user to a group.
+
+    sudo gpasswd -d userName groupName : removing user from group.
+
+    

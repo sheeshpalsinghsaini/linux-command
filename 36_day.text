@@ -1,0 +1,17 @@
+# tar command :
+
+    used to create, maintain, modify and extract which are archive in tar formate.
+
+
+    tar -cvf test.tar practice/     : create test.tar file of practice folder.
+
+    tar -xvf test.tar               : extract tar folder.
+
+    -------------------------------------
+
+    .gz -> g zip file 
+
+    tar -czvf   test.tar.gz practice    : create .tar.gz archive folder 
+          |-> z for create .tar.gz archive file 
+
+    tar -xzfv test.tar.gz       : extract .tar.gz folder

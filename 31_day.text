@@ -1,0 +1,18 @@
+# cal 
+
+    used to dispaly conventially formated calendar on command line.
+
+    ex :
+
+        sudo apt-get install ncal : install cal pkg.
+
+        cal : show current month cal,date and year. 
+
+        ncal  : op in different formate.
+
+        cal 2016 : show all month of give year.
+
+        cal 2 2014 : show feb month of 2014.
+            |-> no of month.
+
+        cal -3 : print current month prev and next.

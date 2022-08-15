@@ -1,0 +1,18 @@
+# How to run multiple command together :
+
+    some option for combine :
+        1.  ;
+        2.  && 
+        3.  || 
+
+
+
+        ls ; pwd : show list and current working dir. 
+
+        date ; CAL ; pwd : not stop if any command wrong.
+
+        ls && pwd && date && cal : sequence matter, 
+                                 | if any first wrong not go to next.
+
+        
+        ls || pwd   : if first command success will not go to next.

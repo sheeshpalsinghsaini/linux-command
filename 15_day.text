@@ -1,0 +1,16 @@
+# kill command :
+    use to kill/quite to prcoess
+
+
+    syntax
+        kill [ filags ] processId/PID 
+
+
+    kill -KILL PID  : close forcefully
+    kill -9 pid     : close forcefully
+
+    ps -ux          : show all running process, PID 
+    ps -aux         : show all running poces by all the user, PID 
+    ps -u 'username' : show all running prcoess of give user.
+    ps -C proccess_name : show all runing instance of give process .
+    

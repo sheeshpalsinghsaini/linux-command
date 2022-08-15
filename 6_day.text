@@ -1,0 +1,14 @@
+# mkdir command :
+    use to create new directory
+
+
+    syntax :
+        mkdir [dir_name]
+        mkdir image/pics 
+
+    mkdir -p names/marks : create directory structure with parent 
+    or 
+    mkdir --parent names/marks 
+    mkdir -p names/{john,tom,bob} : create three directory inside names 
+    mkdir -p name/test{1..12}   : create multiple directory with range
+    

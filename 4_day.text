@@ -1,0 +1,13 @@
+# cat command : three text file task
+        1. display file 
+        2. combining of copying text file 
+        3. creating new text file 
+
+    syntax : 
+        cat [ option ] file1 file2 file3 ...
+
+    cat             : press enter, we can write any thing like echo command, for exit use ctr+d 
+    cat list.text   : list content of list.text file 
+    cat  file1 file2 : list content of both file 
+    cat -n file.text    : print content with line number.
+    

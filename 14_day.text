@@ -1,0 +1,14 @@
+# top command :
+    show details of real time useage of system resources.
+
+    syntax :
+        top 
+
+    top     : show resource utilization of system 
+            -> press s, we can provide dynamic number in sec, to refresh 
+            -> press i for fiter out those process which is runing, idl precess not showing.
+            -> if press again i then go it in normal mode.
+
+
+    Note : we can kill any prcoess by PID.
+            -> press k and provide PID and enter then it will kill that one.

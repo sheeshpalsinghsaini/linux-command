@@ -1,0 +1,8 @@
+# remove user : userdel userName
+
+    ex :
+        sudo userdel saini : delete user and passwd but not delete home dir.
+
+        suer userdel -r userName : delete user home dir also.
+
+        sudo rm -r /home/userName : delete user home dir.

@@ -1,0 +1,27 @@
+ # apt-get command : 
+    used to install software in debian based linux.
+
+    -> command line tool which work apt-get software packages.
+    -> apt = advance packaging tool, available for debian base linux.
+    -> for web hat linux like centos,fedora etc. we used yum.
+
+    -> for apt-get required super previlages
+        sudo apt-get update : re-synchronize local with remote.
+
+    file present of updated 
+        cat /etc/apt/sources.list 
+
+------------------ install software 
+    java --version : check version of software 
+
+    sudo apt-get install php5   : install php5 
+    
+    sudo apt-get remove php5    //remove/uninstall from system.
+                                // it dont remove configuration.
+    
+    sudo apt-get remove --purge php5 //remove configuration also.
+
+    sudo apt-get autoremove         // remove to those which install automaticaly
+                                    //for setisfy dependency but not need now.
+
+    

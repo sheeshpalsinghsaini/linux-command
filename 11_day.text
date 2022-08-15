@@ -1,0 +1,9 @@
+# touch command 
+    -> create new empty file 
+    -> used to change time stamp of file also.
+
+    syntax 
+        touch file_name : create empty file 
+        touch fielName  : if file exit then, it will change time stamp.
+
+    touch file.text     ; create empty file.text 

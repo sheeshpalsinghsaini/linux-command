@@ -1,0 +1,21 @@
+# rmdir and rm command :
+    1. rmdir : used to remove directory or directory structure.
+
+
+    syntax :
+        rmdir [ option ] dir_name
+
+        rmdir a/b/c/d/e/f/g : only delete last/top directory
+        rmdir -p a/b/c/d/e/f/g : delete directory structure .
+
+        rmdir -pv a/b/c/d/e/f/g : wiht visual
+
+Note : if directory contain any file then rmdir will not work 
+
+    2. rm command :
+            used to remove file and directory 
+
+        rm -rv a/b/c : remove recursively
+        rm -r a : enough to delete whole a directory.
+
+        

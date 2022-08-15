@@ -1,0 +1,18 @@
+# find command :
+    -used to search a file in directory hirarchy.
+
+
+    find <path_in_which_want_search> <flag> <fileName>
+
+    find /home/sheeshpalsinghsaini -name test.sh 
+
+    find /home/sheeshpalsinghsaini -name test.* 
+
+    find /home/sheeshpalsinghsaini -name *.text     //find all text file. 
+
+    sudo find / -name dpkg.log 
+
+    find /home/sheeshpalsinghsaini -mtime -1 : show all file created one day algo.
+                                           |=> one day ago.
+
+    

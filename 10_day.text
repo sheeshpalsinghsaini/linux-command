@@ -1,0 +1,12 @@
+# less command :
+    used to read the file, search something in file like pattern,
+
+    syntax :
+        less file_name
+
+    
+    less file.text      : show content from starting.[use down/up arrow key to move,use space read page by page]
+                         -> [G-> end, g-> top]
+                         -> /book   [look this word in content] -> press n for next keyword 
+                         -> ?book   [search from down to up] -> press n for nex keyword 
+                         -> press q for quit the terminal.

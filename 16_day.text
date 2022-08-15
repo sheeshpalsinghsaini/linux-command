@@ -1,0 +1,25 @@
+# echo command :
+        it will just display, whatever we write after echo command. 
+
+        syntax
+            echo 'write anything'
+
+
+        echo hello world
+        echo "hello world"      : recommended
+
+
+        # how to use variable in terminal 
+            myvar="Mark"    : dont give any space between in .
+
+            echo $myvar     : display the content of variable.
+
+        Note : this variable avalabe only current session.
+
+            x=10
+            echo "Value of x = $x"  : print variable value with string.
+
+            echo -e "some \t text"   : give tab space 
+                  |-> enable interpretation.
+
+            echo -e "some \n text"   : print in next line.

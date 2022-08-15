@@ -1,0 +1,26 @@
+# date command :
+     
+      display and change system date and time.
+
+      date : show current system date and time.
+
+      date -s "11/20/2022 12:48:00" : change system date and time.
+                |
+                |->mm:dd:yy 
+
+    
+
+     formate        what is specifies 
+     +%m        |   specifies the month number 
+     +%h        |   specifies the abbreviated month(Jan-Dec)
+     +%B        |   specifies the full month name 
+     +%d        |   specifies the day of the month 
+     +%y        |   specifies the year 
+     +%H,+%Mand+%S | specifies the hour,minute,seconds
+     +%D        |   specifies the date as mm/dd/yy 
+     +%T        |   specifies the time as hh:mm:ss 
+
+
+     date +%d%h%y   : show data in dd:mm:yy formate.
+
+     

@@ -1,0 +1,12 @@
+# nano command :
+    text editor
+
+    syntax : 
+        nano fielName   : if file exit then open editor, if not exist then create and open editor[show after saving].
+
+        nano file.text  : open editor 
+                            -> ctl+o :writing out 
+                            -> ctl+x : exit the editor 
+                            -> ctl+k : cut text 
+
+        

@@ -1,0 +1,21 @@
+octal Permision : octal and numberic Permision
+    Permision in the form of octal number 
+
+
+
+---------------------------------------------------------------
+    x r w       number      Permision
+---------------------------------------------------------------
+    0 0 0          0    -> no Permision
+    0 0 1          1    -> write Permision
+    0 1 0          2    -> read Permision
+    0 1 1          3    -> read and write Permision
+    1 0 0          4    -> execute Permision
+    1 0 1          5    -> execute and write Permision
+    1 1 0          6    -> execute and read Permision
+    1 1 1          7    -> execute, read and write Permision
+
+
+    Example :
+
+        chmod ugo=777 file.text : all the Permision to all user 

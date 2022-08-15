@@ -1,0 +1,23 @@
+# head and teail command :
+
+    generaly used it with file, generaly used with log file .
+
+    head : print first part of file 
+    tail : print last/end part of file.
+
+    cd /var/log : in log directory.
+
+
+    head dpkg.log   : show log first few for dpkg.
+    tail dpkg.log   : show log last few for dpkg .
+
+    head -n3 dpkg.log : show first 3 log of dpkg file
+    tail -n3 dpkg.log : show last 3 log of dpkg file.
+
+    head -3 dpkg.log : same 
+    tail -3 dpkg.log : same avobe.
+
+    tail -f dpkg.log : stuck, and show if there is any current changes also.
+
+    head -3 dpkg.log xrdo.log : show first 3 line of dpkg and xrdo 
+    

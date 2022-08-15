@@ -1,0 +1,17 @@
+# cp command :
+    used to copy file and directory.
+
+    syntax :
+        cp [ option ] source1 source2 source3 destination 
+        destination -> can be relative or absolute path.
+        source -> can be relative or absolute path.
+
+        cp file.text file2.text : copy content of file.text into file2.text, if not exit create it.
+        cp file1.text dir1 : transfer file into dir1.
+        cp -i file1.text file2.text file3.text dir1  : -i -> iterativly, if file already there then ask for over write or not.
+
+Note : relative path start from starting or root directory/home directory
+        absolute path start from current directory.
+
+        cp dir1 dir2 : not work 
+        cp -R dir1 dir2 

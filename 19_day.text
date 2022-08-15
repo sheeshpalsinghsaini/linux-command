@@ -1,0 +1,15 @@
+# directory Permision :
+    change the directory Permision
+
+
+    d---r-xr-x 1 sheeshpalsinghsaini sheeshpalsinghsaini 100 Aug 11 12:49 d1
+    drwxr-xr-x 1 sheeshpalsinghsaini sheeshpalsinghsaini   0 Aug 11 12:48 d2
+    |
+    |
+    |-> stands for directory
+
+    chmod u=-rwx d1 : remove d1 rwx Permision
+
+    user can not be access it. and can not see the content of file.
+
+    

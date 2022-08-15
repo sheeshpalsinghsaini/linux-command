@@ -1,0 +1,16 @@
+# mv command :
+    used to move content from source to destination
+
+    syntax :
+        mv [ option ] source destination 
+
+        mv file1.text file2.text    : it will change file name, contain remain same. 
+        mv file2.text file3.text    : change name again 
+        mv file1.text dir           : move to directory.
+
+        mv -i file1.text dir        : it will ask for overrite the file.
+
+        mv dir  dir2                : move dir inside dir2 , if content is also there it will move it also.
+                                        [if dir2 doesn't exist it will change name, if exist then move dir inside it.]
+
+        

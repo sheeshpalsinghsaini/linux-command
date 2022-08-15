@@ -1,0 +1,14 @@
+# redirection command :
+    capturing output from command/file/program send as input to other /command/file/program 
+
+syntax :
+    output > file 
+
+    cat > test.text  : press enter, whatever we will write it redirecte in the test.text file. 
+    cat >> text.text : append new content to existing context. 
+    cat list1.text list2.text > list3.text : transfer content for both in list3.text 
+
+    cat list4.text >> list3.text : append list4.text into list3.text 
+
+    
+

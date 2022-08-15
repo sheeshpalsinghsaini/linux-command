@@ -1,0 +1,16 @@
+# Bash scripting :
+
+    script : is a text file that contains sequence of command for 
+             linux base operating system.
+
+
+    nano myscript.sh 
+                  |-> it show that is a script, if we dont mention then it also work fine.
+                  |-> but recommended.
+
+    #! -> hash bank
+
+    -------------------------
+    #! <local of Bash>
+    #!/user/bin/bash
+    ls -l               //first command 

@@ -1,0 +1,38 @@
+# SSH :
+
+    - Secure Sheel 
+    - used to securly login to remote operating system.
+    - it is most comman way to access remote base linux server.
+
+    ssh : if run success then install otherwise not 
+
+    usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command]
+--------------------------------------------
+
+    ssh user@ip -portNo             : access of removte linux os.
+
+    ssh localhost 
+    op: ssh: connect to host localhost port 22: Connection refused, not install.
+
+    ---------------------------
+    sudo apt-get install openssh.server     : install openssh server in local system.
+
+    sudo service ssh status                 : show ssh server status 
+
+    ssh localhost : now it will allow to login to local system by terminal.
+
+    sudo nano /etc/ssh/sshd_config  : we can change ssh port number from this file.
+    "
+        #Port 22
+        #AddressFamily any
+        #ListenAddress 0.0.0.0
+        #ListenAddress ::
+
+
+    "

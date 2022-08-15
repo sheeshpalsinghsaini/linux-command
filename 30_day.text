@@ -1,0 +1,19 @@
+# wc command :
+    - used to word count .
+
+
+    wc test.text  : show line,word,char count 
+
+     1  3 17 test.text
+     |  |  |    |-> file name.
+     |  |  |-> no of character
+     |  |-> no of word
+     |-> no of line 
+
+
+    wc -l test.text : only count no of line 
+    wc -w test.text : only count no of word
+    wc -c test.text : only count no of character 
+    wc -L test.text : show count of char of logest length.
+
+    

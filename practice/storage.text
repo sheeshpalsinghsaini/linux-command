@@ -1,0 +1,22 @@
+Filesystem      Size  Used Avail Use% Mounted on
+udev            4.8G     0  4.8G   0% /dev
+tmpfs           997M  1.5M  995M   1% /run
+/dev/nvme0n1p6  105G   21G   83G  20% /
+tmpfs           4.9G   12M  4.9G   1% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/loop2       62M   62M     0 100% /snap/core20/1587
+/dev/loop5      165M  165M     0 100% /snap/gnome-3-28-1804/161
+/dev/loop1      185M  185M     0 100% /snap/postman/181
+/dev/loop7       56M   56M     0 100% /snap/core18/2538
+/dev/loop4       47M   47M     0 100% /snap/snapd/16292
+/dev/loop3       71M   71M     0 100% /snap/core22/188
+/dev/loop11     219M  219M     0 100% /snap/gnome-3-34-1804/77
+/dev/loop0      345M  345M     0 100% /snap/telegram-desktop/4024
+/dev/loop12     170M  170M     0 100% /snap/spotify/60
+/dev/loop6      401M  401M     0 100% /snap/gnome-3-38-2004/112
+/dev/loop10     130M  130M     0 100% /snap/mysql-workbench-community/10
+/dev/loop9      128K  128K     0 100% /snap/bare/5
+/dev/loop8       92M   92M     0 100% /snap/gtk-common-themes/1535
+/dev/nvme0n1p6  105G   21G   83G  20% /home
+/dev/nvme0n1p1  256M   91M  166M  36% /boot/efi
+tmpfs           997M   84K  997M   1% /run/user/1000
