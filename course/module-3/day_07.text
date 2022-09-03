@@ -1,0 +1,31 @@
+# Linux File System :
+    * OS store data on disk drives using a structure called filesystem, consisting of files, 
+        directories, and the information needed to access and locate them.
+
+    * There are many different types of filesystem. In general, improvements have been made 
+        to filesystem with new releases of operating system, and each new filesystem has been 
+        given a different name.
+
+        Example : 
+            in Linux : ext3, ext4, XFS 
+            in window : NTFS, FAT.
+            etc.
+
+    * Linux filesystem store information in a hierarchy of directories and files.
+
+
+
+    File System Structure in Linux looks like :
+
+                                                    root[/]   --> root directory, C-Drive in window case.
+        -----------------------------------------------|----------------------------------------------------------
+        |     |      |      |       |       |       |       |       |       |       |       |       |       |     |
+     /bin/    |    /boot/   |     /div/     |      /etc/    |      /home/   |      /lib/    |     /media/   |    /mnt/
+            /opt/         /root/          /sbin/           /srv/          /tmp/           /usr/           /var/
+                                                                                            |               |
+                                                                                            |               |
+                                                                                            |               |-------------------------------
+                                                                                            |               |           |       |           |
+                                                 -------------------------------------------|             /cache/     /log/  /spool/      /tmp/
+                                                 |       |           |       |
+                                               /bin/   /include/   /lib/    /sbin/

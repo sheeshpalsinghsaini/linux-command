@@ -1,0 +1,39 @@
+# File Ownership :
+
+    * There are two owners of a file or directory
+        1. User and group 
+
+
+    * Command to change file ownership 
+
+        -> chown and chgrp
+            * chown change the owner, ownership of a file 
+            * chgrp change the group, ownership of a file 
+
+    * Recursive ownership change option (Cascade)
+        * -R 
+
+
+                  |->user ownership 
+                  |
+    -rw-r--r-- 1 sss sss 0 Sep  1 13:32 hulk
+                      |
+                      |->group ownership 
+
+
+    example :
+
+        chown root hulk
+                      |-> now file own by the root 
+        -rw-r--r-- 1 root sss 0 Sep  1 13:32 hulk
+
+        chgrp root hulk 
+                            |-> group own by root 
+        -rw-r--r-- 1 root root 0 Sep  1 13:32 hulk
+
+
+
+        drwxr-x--- 41 sss sss 4096 Sep  2 16:12 sss         // user have the permision for execute file own by root .
+
+        
+

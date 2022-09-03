@@ -1,0 +1,10 @@
+# Linux file types :
+
+
+        '-'     : Regular file 
+        'd'     : Directory
+        'l'     : link 
+        'c'     : Special file or device file 
+        's'     : socket 
+        'p'     : Named pipe 
+        'b'     : Block device 

@@ -1,0 +1,15 @@
+# Access to Linux  System :
+
+    Each operating system has a different protocol or client that is 
+    used to access the system.
+
+
+    Example :
+
+    window          =           Remote Desktop(RDP)
+    VMware ESX      =           vSphere client 
+    Linux           =           Putty, SecureCRT
+                                SSH from Linux to Linux [possible]
+
+
+    

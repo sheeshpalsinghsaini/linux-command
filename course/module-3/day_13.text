@@ -1,0 +1,9 @@
+# Copying Directory :
+
+    * cimmand to copy a directory
+        * cp 
+
+    * To copy a directory on Linux, you have to execute the cp command with the "-R" option 
+        for recursive and specify the source and destination directory to be copyed 
+
+            cp -R <source_folder> <destination> 

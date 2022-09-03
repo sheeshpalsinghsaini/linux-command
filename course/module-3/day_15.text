@@ -1,0 +1,21 @@
+# Find files and Directories : [find, locate]
+
+    * Two main commands are used to find files/directories.
+        1. find 
+        2. locate 
+
+
+    find <directory_name> -name <fileName>
+
+    locate <fileName> 
+
+
+Note : if locate command does not output any result, then as root run "updatedb"
+
+        Also make sure you have "mlocate" package installed 
+
+        To check = rpm -qa | grep mlocate 
+        To install = yum install mlocate 
+
+
+        

@@ -1,0 +1,18 @@
+# Navigating file System :
+
+    * When navigating a unix filesystem, there are a few important commands.
+        1. cd  : change dir 
+        2. pwd : print working dir
+        3. ls  : list the condent of dir 
+
+    1. "cd" stands for change directory. It is the primary command for 
+        moving you around the filesystem.
+
+    2. "pwd" stands for print working directory. It tells you where you current location is.
+
+    3. "ls" stands for lsit. It lists all the directories/files within a current working Directory.
+
+
+
+    whoami  : show current username 
+    

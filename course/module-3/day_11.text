@@ -1,0 +1,19 @@
+# File System Paths :
+
+    * There are two paths to navigate to a filesystem.
+
+        1. Absolute Path.
+        2. Relative Path. 
+
+    * An absolute path always begins with a "/". This indicates that the path starts at the 
+      root directory. An example of an absolute path is. 
+
+        example : cd /var/log/samba 
+
+    * A relative path does not begin with a "/". It identifies a location relative to your 
+        current position. An example of a relative path is.
+
+        example : cd ./log  
+                  cd ./samba            //start from the current directory.
+
+    

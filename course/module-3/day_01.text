@@ -1,0 +1,27 @@
+# command prompts and getting prompts back :
+
+
+    What are command prompts ?
+        -> A command prompt, also referred to simply as a prompt, is a short text at 
+            the start of the command line followed by prompt symbol on a command line interface.
+
+        Ex :
+            root@Developer:~# 
+             |     |        |
+             |     |        |-> prompt symbol
+             |     |-> hostname
+             |
+             |
+             |-> username
+
+
+        # -> used for root user
+        $ -> use for normal user
+
+Note :
+        if you stuck in any command for
+            -> To get your prompt back.
+
+            ctrl +c     
+
+

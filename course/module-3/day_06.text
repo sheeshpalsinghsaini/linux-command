@@ -1,0 +1,16 @@
+# Important things to remember in linux :
+
+    * Linux has super-user account called root 
+        -> root is the most powerful account that can create, modify,delete 
+            accounts and make changes to system configuration files.
+    * Linux is case-sensitive system 
+        -> ABC is not same as abc.
+    * Avoid using space when creating files and directories.
+    * Linux kernel is not an operating system. it is a small software within linux operating 
+      system that take commands from users and pass them to system hardware or peripherals.
+    * Linux is mostly CLI not GUI.
+    * Linux is very flexible as compared to other operating systems.
+
+
+
+   

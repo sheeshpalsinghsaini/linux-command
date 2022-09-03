@@ -1,0 +1,10 @@
+# Download and install Putty
+
+    -> is only for window users who wants to connect linux machine to window.
+
+    for mac user :
+        1. openup a terminal on your mac
+        2. run the following command
+            ssh -l iafzal ip_address
+
+    

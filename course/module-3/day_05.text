@@ -1,0 +1,18 @@
+
+
+
+
+
+
+    Host-only Adapter = Allows communication between your PC and the Virtual Machine 
+
+    Bridged Adapter = Allows communication between your PC and VM plus allow communication to the internet.
+
+    Pick any one of them.
+
+
+    ifup network_inteface_name              //it will up the network/on 
+    ifdown network_inteface_name            //it will off the network.
+    
+
+    

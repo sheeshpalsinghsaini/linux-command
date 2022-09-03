@@ -1,0 +1,44 @@
+# File Permissions :
+    * UNIX is a multi-user system. Every file and directory in your account can be protected from or made 
+      accessible to other user by changing its access permissions. Every user has responsibility for controlling 
+      access to their files.
+
+    * Permission for a file or directory may be restricted to by types.
+    * There are 3 types of permissions
+        1. r - read 
+        2. w - write 
+        3. x - execute=running a program
+
+
+    * Each permission (rwx) can be controlled at three levels.
+        1. u - user = yourself
+        2. g - group = can be people in the same project.
+        3. o - other = everyone on the system.
+
+
+    * File or Directory permission can be displayed by running ls -l command.
+        -rwxrwxrwx
+          first three for user 
+          second three for group 
+          third three for other 
+
+    * Command to change permission 
+        chmod
+
+
+
+    example :
+
+        -rw-rw-r-- 1 sss sss 0 Sep  1 13:32 hulk
+
+        first - show that is a file 
+
+        chmod g-wrx hulk                // remove hulk rwx permision for group.
+
+
+        chmod a-r hulk      // remove read permision for all 
+
+        chmod u-r hulk  
+        chomd o-rwx hulk 
+
+        

@@ -1,0 +1,14 @@
+# Help Commands :
+
+    * There are 3 types of help commands 
+        * whatis command 
+        * command --help 
+        * man command 
+
+        whatis ls           //give sort discription of ls command 
+
+        ls --help           //give brief description of ls command
+
+        man ls              // give a manual of ls command
+
+        

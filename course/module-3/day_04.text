@@ -1,0 +1,71 @@
+# New Network Command(IP) 
+    -> CentOS/RHEL 5 or 6 = ifconfig
+    -> CentOS/RHEL 7 = ip 
+    -> CentOS/RHEL 7.5 and up = ipconfig command has been deprecated
+        for this use : ip addr 
+    -> To use ifconfig in 7.5 ="yum install net-tools"
+
+
+
+    ifconfig 
+
+    show all different -2 network interfaces 
+
+    docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500                               -> interface : 1                    
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:3f:2b:91:cd  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+    eno1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500                                  -> interface : 2
+            ether f8:0d:ac:5a:d0:6f  txqueuelen 1000  (Ethernet)
+            RX packets 0  bytes 0 (0.0 B)
+            RX errors 0  dropped 0  overruns 0  frame 0
+            TX packets 0  bytes 0 (0.0 B)
+            TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+    lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536                                        -> interface : 3
+            inet 127.0.0.1  netmask 255.0.0.0
+            inet6 ::1  prefixlen 128  scopeid 0x10<host>
+            loop  txqueuelen 1000  (Local Loopback)
+            RX packets 15034  bytes 1107133 (1.1 MB)
+            RX errors 0  dropped 0  overruns 0  frame 0
+            TX packets 15034  bytes 1107133 (1.1 MB)
+            TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+    vmnet1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500                        -> interface : 4
+            inet 192.168.113.1  netmask 255.255.255.0  broadcast 192.168.113.255
+            inet6 fe80::250:56ff:fec0:1  prefixlen 64  scopeid 0x20<link>
+            ether 00:50:56:c0:00:01  txqueuelen 1000  (Ethernet)        
+            RX packets 0  bytes 0 (0.0 B)
+            RX errors 0  dropped 0  overruns 0  frame 0
+            TX packets 75  bytes 0 (0.0 B)
+            TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+    vmnet8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500                        -> interface : 5
+            inet 192.168.66.1  netmask 255.255.255.0  broadcast 192.168.66.255
+            inet6 fe80::250:56ff:fec0:8  prefixlen 64  scopeid 0x20<link>
+            ether 00:50:56:c0:00:08  txqueuelen 1000  (Ethernet)
+            RX packets 0  bytes 0 (0.0 B)
+            RX errors 0  dropped 0  overruns 0  frame 0
+            TX packets 77  bytes 0 (0.0 B)
+            TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+    wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500                          -> interface : 6
+            inet6 fe80::2d2a:ed76:5fd8:4e58  prefixlen 64  scopeid 0x20<link>
+            ether 5c:ba:ef:7d:36:9b  txqueuelen 1000  (Ethernet)
+            RX packets 490  bytes 65811 (65.8 KB)
+            RX errors 0  dropped 0  overruns 0  frame 0
+            TX packets 1950  bytes 328132 (328.1 KB)
+            TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+
+        ip a            // is also same 
+
+        ip addr         // is also same 
+
+        man ip      // show ip manual 
+

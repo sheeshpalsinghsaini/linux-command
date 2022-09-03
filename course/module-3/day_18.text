@@ -1,0 +1,30 @@
+# wild cards
+
+    * A wildcard is a character that can be used as a substitute for any of a class of 
+      characters in a search.
+
+        . * -> represents zero or more characters
+        . ? -> represents a single character 
+        . []-> represents a range of characters 
+
+
+        touch abcd{1..9}        //create 9 file directly.
+
+        ls -l abc*          //list only abc, start with it.
+        ls -ltr             // show newly created file at the end.
+
+
+        ls -l ?bcd*         //list those which first character whatever, but bcd should be same and after it also anything.
+        ls -l *[cd]*        // either c either d 
+
+
+
+        ----------------------------------------------------
+
+        other wildcards :
+
+            \ = slash , "as an escape character"
+
+            ^ = caret , " the beginning of the line"
+
+            $ = dollar sign , "the end of the line" 

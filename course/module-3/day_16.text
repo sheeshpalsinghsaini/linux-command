@@ -1,0 +1,9 @@
+# Difference Between find and locate 
+
+    * 'locate' uses a prebuild database, which should be regularly updated, 
+        while 'find' iterates over a filesystem to locate files. Thus, locate 
+        is much faster than find, but can be inaccurate if the database (can 
+        be seen as a cache) is not updated.
+
+    * To update locate database run 'updatedb'
+    

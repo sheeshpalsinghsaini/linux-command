@@ -1,0 +1,71 @@
+# Access Control List (ACL) :
+
+    * ACL(Access Control LIst) provides an additional, more flexible permission mechanism 
+      for file systems. It is designed to assist with UNIX file permisions. ACL, allows you
+      to give permissions for any user or group to any disc resource. 
+
+
+
+    * Use of ACL :
+        Think of a scenario in which a particular user is not a member of group created by 
+        you but still you want to give some read or write access, how can you do it without 
+        making user a memeber of group, here comes in picture Access Control Lists, ACL helps 
+        us to do this trick.
+
+    * Basically, ACL are used to make a flexible permision mechanism in Linux.
+    
+    * From Linux man pages, ACLs are used to define more fine-grained discretionary 
+      right for files and directories.
+
+    * Commands to assign and remove ACL, permision.
+        
+        " setfacl and getfacl "
+            |       |-> get the permision to that file.
+            |
+            |-> set the permision to file 
+
+    
+
+    * List of commands for setting up ACL, 
+        1. To add permision for user :
+            setfacl -m u:<userName>:rwx /<absolutePath>
+
+        2. To add permision for a group :
+            setfacl -m g:<groupName>:rw /<absolutePath>
+
+        3. To allow all files or directoriesto inherit ACL entries from the directory it is within.
+            setfacl -Rm "entry" /<absolutePath>
+
+        4. To remove a specific entry 
+            setfacl -x u:<userName> /<absolutePath>         // for a specific user 
+
+        5. To remove all entries
+            setfacl -b /<absolutePath>              // for all users.
+
+        
+    Note : * As you assign the ACL permision to a file/directories it adds + sign at the end of
+             of the permision.
+           * Setting with permision with ACL does not allow to remove a file. 
+
+
+
+
+Example :
+
+
+        
+    ls -l tx
+    -rw-rw-r-- 1 sss sss 0 Sep  2 22:39 tx
+
+    getfacl tx 
+
+    # file: tx
+    # owner: sss
+    # group: sss
+    user::rw-
+    group::rw-
+    other::r--
+
+
+    setfacl -m g:sss:rw /sss/myspace/linux_command/practice/tx      //set rw permision for sss user.
+    

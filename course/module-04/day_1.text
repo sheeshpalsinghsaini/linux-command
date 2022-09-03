@@ -1,0 +1,16 @@
+# Commands Syntax :
+    * command options and arguments.
+
+    Commands typically have the syntax :
+        command option(s)   argument(s)
+
+    
+    Options :
+        -> Modify the way that a command works
+        -> Usually consist of a hyphen or dash followed by a single letter.
+        -> Some commands accept multiple options which can usually be grouped together after a single hyphen.
+
+    Arguments :
+        -> Most commands are used together with one or more arguments
+        -> Some commands assume a default argument if none is supplied.
+        -> Arguments are optional for some commands and required by others.

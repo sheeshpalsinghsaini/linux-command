@@ -1,0 +1,5 @@
+unmount /media/<path of device>
+
+mkfs.vfat /dev/sdb1
+	    |-> location of device 
+	    

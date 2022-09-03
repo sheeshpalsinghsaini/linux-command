@@ -1,0 +1,11 @@
+# Changing Password :
+
+    * you should change your initial password as soon as you login.
+
+    comamnd = passwd userid 
+
+    old password : enter your current password 
+    new password : enter your new password 
+    Retype new password : re-enter you new password.
+
+    to check userid : whoami 

@@ -1,0 +1,58 @@
+# Soft and Hard Links 
+
+    * inode = Pointer or number of a file on the hard disk.
+
+    when we create a file and give a name to that, so that name is for us,
+    but commuter doesn't know number, so computer assign a number to that file 
+    which called inode. 
+
+    
+
+    * Soft Link = Link will be removed if file is removed or renamed.
+
+    * Hard Link = Deleting renaming or moving the original file will not affect 
+                    the hard link.
+
+    
+    ex:     ln      :  create hard link 
+            ln -s   :  create soft link.
+
+
+    Note : link like short in window desktop.
+
+
+
+    Note : We cannot create soft or hard link within the same directory with the same name.
+            that is why we will create link in /tmp directory
+
+
+    lrwxrwxrwx 1 sss  sss    45 Sep  1 13:33 hulk -> /home/sss/mySpace/linux-command/practice/hulk
+    |
+    |
+    |-> l indicate that, this is a link 
+
+
+    267692 -rw-rw-r-- 1 sss sss 22 Sep  1 13:34 hulk
+      |
+      |
+      |-> this is inode number.
+
+
+
+    ---------------------
+    ln /home/sss/mysapce/linux-command/practice/hulk    
+
+
+
+Note : if you get this error: 
+      "ln : failed to create hard link'./hul'=>'/home/sss/myspace/linux-command/practice/hulk':
+        Invalid cross-device link "
+
+
+    it is mostly likely that your /home directory isn't on the same partition as the /tmp directory
+
+    Hard links only work within the same partition.
+
+
+if we remove source file, then link doesn't effected. it contain same content as it is.
+

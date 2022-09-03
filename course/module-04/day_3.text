@@ -1,0 +1,45 @@
+# Permission Using Numeric Mode :
+
+    * Permission to a file and directory can also be assigned numerically.
+        -> chmod ugo+r <fileName>
+        
+        OR 
+
+        -> chmod 444 <fileName>
+
+                -r--r--r--
+                
+
+    
+    * Owners assigned Permission on every fie and Directory
+
+        user -------->
+                      \
+                       \
+        group ---------->  File 
+                       /
+                      /
+        All --------->
+
+
+
+    * Assign numbers to permission types 
+
+
+        Number          Permission Type             Symbol
+          0             No permision                   -
+          1             Execute                       --x 
+          2             Write                         -w-
+          3             Execute+Write                 -wx 
+          4             Read                          r--
+          5             Read+Execute                  r-x 
+          6             Read+write                    rw-
+          7             Read+Write+Execute            rwx 
+
+
+    * chmod 764 <fileName>
+
+            7 : for user -> rwx 
+            6 : for group-> rw-
+            4 : for all  -> r-- 
+            
