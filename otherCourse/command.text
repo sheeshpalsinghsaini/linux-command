@@ -95,7 +95,7 @@ command : an instruction in text form.
 
     cid ../../dir/dir/../dir..... //zic zac move in directory.
 
-    mkdir -p dir/dir1/dir2/dir3.... //p->represent painter dir here is dir.
+    mkdir -p dir/dir1/dir2/dir3.... //p->represent parent dir here is dir.
 
 
 
